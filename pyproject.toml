@@ -1,0 +1,12 @@
+[project]
+name = "mobileclip2-litert-export"
+version = "1.0.0"
+description = "Export Apple MobileCLIP2-S2 to LiteRT/TFLite for Android/Flutter"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mobileclip",
+]
+
+[tool.uv.sources]
+mobileclip = { git = "https://github.com/apple/ml-mobileclip.git" }
